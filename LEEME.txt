@@ -1,0 +1,29 @@
+Buenos dias, le presento la práctica final realizada por Adam Roy Frederick William Reading con DNI:Y2483358Q
+
+Imprescindibles para ejecutar:
+Tiene que estar escuchando mongod y conectados a mongodb://localhost:27017
+
+en Server
+    -  npm i
+    -  node index.js
+
+en Cliente
+    -   npm i
+    -   npm run dev
+
+
+Datos principales:
+A la hora de arrancar el servidor, habrá un usuario (email: "12345@gmail.com", contraseña:"123"). Podrás iniciar sesión directamente o registrarse como usuario nuevo.
+Tambien habrán 8 articulos que podrá consultar en el listado. 
+
+IMPORTANTE: para el registro de un nuevo artículo, no permite duplicar los numeros de articulos por lo que para el registro de dichos articulos se debe comenzar en el 9
+
+Funcionalidades optativas.
+
+Paginación de datos. Hay botón de siguiente y anterior para ver los diferentes articulos.
+Busquéda. Hay una vista con una barra de buscador donde se debe introducir la palabra clave de lo que buscas. (moda, electronica,hogar).
+Las casillas de email y contraseña se agitan cuando las credenciales son incorrectas
+Se ha empleado vuetify para los componentes visuales como v-card y v-btn
+Se ha empleado router para la navegación
+
+
